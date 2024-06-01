@@ -1,1 +1,436 @@
-// Продължи с твоя SCSS или обикновен CSS код тук.
+html{
+  scroll-behavior: smooth;
+}
+.body {
+  position: absolute;
+  top: 50px;
+  background-color: rgb(252, 248, 237);
+  height: 5000px;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+  
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  background-color: rgb(252, 248, 237);
+}
+
+.logo {
+  object-position: center;
+  object-fit: contain;
+  width: 55%;
+  padding-left: 55%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  flex: 1;;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1.5;
+  gap: 10px;
+  padding: 0;
+
+}
+
+.navButton {
+  color: #9B582E;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 26px;
+  padding: 0;
+}
+
+.heading {
+  font-family: Noto Serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+  color: #9B582E;
+  position: relative;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.firstSection {
+  padding-left: 10%;
+  height: 500px;
+}
+
+.firstArticle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-left: 10%;
+  position: relative;
+}
+
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.makeRequestBtn {
+  background-color: rgb(155, 88, 46);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  color: white;
+  border-radius: 32px;
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  transition: opacity 0.2s, background-color 0.5s, color 0.5s;
+}
+
+.makeRequestBtn:hover {
+  background-color: rgb(190, 105, 52);
+}
+
+.makeRequestBtn:active {
+  opacity: 0.5;
+}
+
+.learnMoreBtn {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  border: 1px solid #CA7111;
+  background-color: transparent;
+  padding: 10px 10px 10px 10px;
+  border-radius: 32px;
+  color: #CA7111;
+  z-index: 1;
+  cursor: pointer;
+  transition: opacity 0.2s, background-color 0.5s, color 0.5s;
+}
+
+.learnMoreBtn:active {
+  opacity: 0.5;
+}
+
+.secondSection {
+  margin-top: 100px;
+  padding-left: 10%;
+  height: 1000px;
+  background-image: url(/images/Group.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-x: 65%;
+}
+
+.foodGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.innerGrid {
+  padding-bottom: 50px;
+  background-color: rgba(250, 244, 225);
+}
+.cardHeader{
+  font-family: Noto Serif;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+.shortDescription{
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  
+}
+.learnMoreLink{
+  font-family: Manrope;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 12.38px;
+  text-align: left;
+  color: #9B582E;
+  ;  
+}
+.thirdSection{
+  position: absolute;
+  top: 1110px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+.rightSection{
+display: flex;
+align-items: center;
+}
+.innerRightSection{
+justify-content: center;
+}
+.chefHead{
+  font-family: Noto Serif;
+font-size: 80px;
+font-weight: 700;
+text-align: left;
+
+
+}
+.chefDescription{
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  
+}
+
+.receipt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbf4df;
+  width: 90vw;
+  margin: 0;
+  margin-top: 100px;
+}   
+
+.top {
+  text-align: center;
+}
+
+.receipt .receipt-wrapper {
+  background-color: #fefcf6;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.receipt .receipt-wrapper .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.receipt .receipt-wrapper .product .product-img {
+  flex: 1 1 25%;
+}
+
+.receipt .receipt-wrapper .product .product-img img {
+  width: 90%;
+  margin: auto;
+}
+
+.receipt .receipt-wrapper .product .product-text {
+  flex: 1 1 30%;
+}
+
+.receipt .receipt-wrapper .product .product-text h1 {
+  font-size: 50px;
+}
+
+.receipt .receipt-wrapper .product .vitamins {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+  flex: 1 1 23%;
+  background-color: rgb(250, 232, 219);
+  font-size: medium;
+  margin: 2em;
+  padding: 0.5em 1em;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.receipt .receipt-wrapper .product .vitamins .mini {
+  padding: 0.3em;
+}
+
+.receipt .receipt-wrapper .product .vitamins .mini h1, .receipt .receipt-wrapper .product .vitamins .mini p {
+  margin: 0.3em;
+}
+
+.receipt .receipt-wrapper .product .vitamins .mini p {
+  color: grey;
+}
+
+.receipt .receipt-wrapper .product .vitamins .mini h1 {
+  color: black;
+  font-family: bold;
+  font-size: 35px;
+}
+
+.receipt .interest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: rgb(249, 238, 205);
+  width: 80vw;
+  margin: 2em 0;
+}
+
+.receipt .interest p {
+  flex: 1 1 40%;
+  padding: 0 1em;
+  justify-self: start;
+}
+
+.receipt .interest button {
+  justify-self: end;
+}
+.qna {
+  background-color: rgb(251, 244, 223);
+}
+
+.qna .qna-sec {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.qna .qna-left {
+  margin: 0 8em;
+  flex: 1 1 50%;
+}
+
+.qna .qna-right {
+  margin: 0 10em;
+  flex: 1 1 20%;
+}
+
+.qna .qna-right form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 238, 205);
+  padding: 2em;
+  border-radius: 20px;
+}
+
+.qna .qna-right form label {
+  color: black;
+  font-size: 20px;
+  padding: 1em 0;
+}
+
+.qna .qna-right form input {
+  height: 2em;
+  width: 25em;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+}
+
+.qna .qna-right form input::placeholder {
+  font-size: 15px;
+}
+
+.qna .qna-right form button {
+  align-self: flex-start;
+  margin: 2em 0;
+} 
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 3em;
+}
+
+.rev-left {
+  flex: 1 1 50%;
+  position: relative;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.rev-left h1 {
+  font-size: 50px;
+}
+
+.rev-left .wallnut img {
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  width: 20%;
+  margin: auto;
+}
+
+.rev-right {
+  flex: 1 1 50%;
+}
+
+.reviews .rev-right .rev-card p img {
+  width: 16px;
+  height: 16px;
+}
+.footer {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer .wallnut img {
+  position: relative;
+  width: 10%;
+  margin: auto;
+}
+
+.footer .footer-info {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.footer ul li {
+  margin: 0 1em;
+}
+
+.footer ul li a {
+  color: black;
+}
+
+.footer .copyright {
+  color: grey;
+}

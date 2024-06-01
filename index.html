@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="bg">
     <head>
         <meta charset="UTF-8" />
@@ -10,13 +10,20 @@
 
         <title>Krystallino</title>
 
-        <link rel="preload" href="/fonts/Manrope/Manrope-Light.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-Bold.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/Manrope/Manrope-Light.woff2" as="font"
+            type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/Manrope/Manrope-Regular.woff2"
+            as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/Manrope/Manrope-Medium.woff2" as="font"
+            type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/Manrope/Manrope-SemiBold.woff2"
+            as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/Manrope/Manrope-Bold.woff2" as="font"
+            type="font/woff2" crossorigin />
 
-        <link rel="preload" href="/fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload"
+            href="/fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.woff2" as="font"
+            type="font/woff2" crossorigin />
 
         <style type="text/css">
             @font-face {
@@ -92,11 +99,540 @@
         <link rel="stylesheet" href="/src/sass/app.scss" />
     </head>
 
-    <body>
-        <div id="app">
-            Започни работа тук. Успех! :)
-        </div>
+    <body class="body">
+        <header class="header">
+            <nav class="headerNav">
+                <section class="left-section">
+                    <a style="text-decoration: none;" href>
+                        <img class="logo" src="images/krystallino-logo.png">
+                    </a>
+                </section>
+
+                <section class="right-section">
+                    <a style="text-decoration: none;" href="#secondSection">
+                        <p class="navButton">Нашите десерти</p>
+                    </a>
+                    <a style="text-decoration: none;" href="#reviews">
+                        <p class="navButton">Отзиви</p>
+                    </a>
+                    <a style="text-decoration: none;" href="#interest">
+                        <p class="navButton">За поръчки и запитвания</p>
+                    </a>
+                    <a style="text-decoration: none;" href>
+                        <p class="navButton">Препоръки</p>
+                    </a>
+                    <a style="text-decoration: none;" href>
+                        <p class="navButton">Медиите за нас</p>
+                    </a>
+                    <a style="text-decoration: none;" href>
+                        <p class="navButton">Контакти</p>
+                    </a>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <section class="firstSection">
+                <h1 class="heading">
+                    Десерти Kristallino —
+                    където <span style="color: black;">изкуството</span> среща
+                    <span style="color: black;">десерта</span>
+                </h1>
+                <article class="firstArticle">
+                    <p>
+                        Отдайте се на нашите изящни творения, изработени със
+                        страст и прецизност от световноизвестния сладкар
+                        Кристалин Илиев. Разгледайте нашите иновативни десерти,
+                        които обещават да измамят вкусовите ви рецептори и да
+                        запалят сетивата ви.
+                    </p>
+
+                </article>
+                <nav class="firstBtn">
+                    <a>
+                        <button class="makeRequestBtn">Направи заявка</button>
+                    </a>
+
+                    <a href="#innerGrid">
+                        <button class="learnMoreBtn">Научи повече</button>
+                    </a>
+
+                </nav>
+
+            </section>
+            <section class="secondSection" id="secondSection">
+                <aside class="foodGrid">
+                    <section class="innerGrid">
+                        <aside>
+                            <img class="foodImg"
+                                src="/images/strawberry-and-basil.svg">
+                        </aside>
+                        <aside>
+                            <img class="divider"
+                                src="/images/Sub Title Element.png">
+                            <h2 class="cardHeader">Ягоди и
+                                босилек </h2>
+                            <p class="shortDescription">Отпразнувайте същността
+                                на лятото със зрели
+                                ягоди, съчетани с ароматен босилек, освежаващо
+                                удоволствие за небцето.</p>
+                            <a href class="learnMoreLink">НАУЧЕТЕ ПОВЕЧЕ</a>
+                        </aside>
+                    </section>
+                    <section class="innerGrid" id="innerGrid">
+                        <aside>
+                            <img class="foodImg"
+                                src="/images/walnuts-and-honey.svg">
+                        </aside>
+                        <aside>
+                            <img class="divider"
+                                src="/images/Sub Title Element.png">
+                            <h2 class="cardHeader">Кисело мляко, орехи и мед
+                            </h2>
+                            <p class="shortDescription">Насладете се на
+                                перфектния баланс на кремообразно кисело мляко,
+                                хрупкави орехи и сладък мед в този райски
+                                десерт.</p>
+                            <a href class="learnMoreLink">НАУЧЕТЕ ПОВЕЧЕ</a>
+                        </aside>
+                    </section>
+                    <section class="innerGrid">
+                        <aside>
+                            <img class="foodImg"
+                                src="images/bacon-and-blueberry.svg">
+                        </aside>
+                        <aside>
+                            <img class="divider"
+                                src="/images/Sub Title Element.png">
+                            <h2 class="cardHeader">Бекон и боровинки </h2>
+                            <p class="shortDescription">Впуснете се в кулинарно
+                                приключение с пикантен бекон и сладки боровинки,
+                                смела комбинация от вкусове, която се
+                                противопоставя на очакванията.</p>
+                            <a href class="learnMoreLink">НАУЧЕТЕ ПОВЕЧЕ</a>
+                        </aside>
+                    </section>
+                    <section class="innerGrid">
+                        <aside>
+                            <img class="foodImg"
+                                src="/images/crispy-sunflower-seed-with-cream.svg">
+                        </aside>
+                        <aside>
+                            <img class="divider"
+                                src="/images/Sub Title Element.png">
+                            <h2 class="cardHeader">Слънчогледови семки </h2>
+                            <p class="shortDescription">Насладете се на
+                                неочакваната комбинация от кремообразна доброта
+                                и хрупкави слънчогледови семки, уникално
+                                лакомство, което ще ви накара да жадувате за
+                                още.</p>
+                            <a href class="learnMoreLink">НАУЧЕТЕ ПОВЕЧЕ</a>
+                        </aside>
+                    </section>
+                </aside>
+            </section>
+            <section class="thirdSection">
+                <aside class="leftPortion">
+                    <img class="profilePic" src="images/Rectangle 22.png">
+                </aside>
+                <aside class="rightSection">
+
+                    <aside class="innerRightSection">
+                        <h2 class="chefHead">Chef Кристалин</h2>
+                        <img class="divider"
+                            src="/images/Sub Title Element.png">
+                        <p class="chefDescription">
+                            Шеф Кристалин Илиев е световноизвестен сладкар,
+                            известен със своите иновативни и артистични творения
+                            на десерти. С повече от две десетилетия опит, той
+                            съчетава традиционни техники с модерни вкусове,
+                            завладявайки кулинарния свят чрез своята марка
+                            Krystallino. Уникалните десерти на шеф Кристалин,
+                            като кисело мляко с орехи и мед или бекон с
+                            боровинки, отразяват неговата отдаденост на
+                            качеството и креативността, спечелвайки й
+                            международно признание и лоялни последователи.
+                        </p>
+                    </aside>
+                </aside>
+
+            </section>
+
+            <section class="receipt">
+                <div class="top">
+                    <h1>Десерти</h1>
+                    <picture class="subtitle">
+                        <source srcset="/images/Sub Title Element.png">
+                        <img src="/images/Sub Title Element.png" alt>
+                    </picture>
+                    <p>Внимателно селектирани вкусове</p>
+                </div>
+
+                <div class="receipt-wrapper" id="receptWrap">
+                    <div class="product">
+                        <div class="product-img">
+                            <picture>
+                                <source srcset="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png">
+                                <img src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png" alt="">
+                            </picture>
+                        </div>
+
+                        <div class="product-text">
+                            <h1>Ягоди и босилек</h1>
+                            <p>Кремообразен десерт на основата на кисело мляко,
+                                наситен със земното богатство на орехи и
+                                сладостта на меда, създавайки хармонична
+                                комбинация от вкусове и текстури.
+                                Основни съставки: кисело мляко, орехи, мед,
+                                захар, желатин (за консистенция), Ванилов
+                                екстрakm</p>
+                        </div>
+
+                        <div class="vitamins">
+                            <div class="mini">
+                                <p>КАЛОРИИ</p>
+                                <h1>200</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО МАЗНИНИ</p>
+                                <h1>12g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАСИТЕНИ МАЗНИНИ</p>
+                                <h1>3g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО ВЪГЛЕХИДРАТИ</p>
+                                <h1>20g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ПРОТЕИН</p>
+                                <h1>6g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ЗАХАРИ</p>
+                                <h1>15g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАТРИЙ</p>
+                                <h1>50mg</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ХОЛЕСТЕРОЛ</p>
+                                <h1>15mg</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <picture>
+                                <source srcset="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png">
+                                <img src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png" alt="">
+                            </picture>
+                        </div>
+
+                        <div class="product-text">
+                            <h1>Ягоди и босилек</h1>
+                            <p>Кремообразен десерт на основата на кисело мляко,
+                                наситен със земното богатство на орехи и
+                                сладостта на меда, създавайки хармонична
+                                комбинация от вкусове и текстури.
+                                Основни съставки: кисело мляко, орехи, мед,
+                                захар, желатин (за консистенция), Ванилов
+                                екстрakm</p>
+                        </div>
+
+                        <div class="vitamins">
+                            <div class="mini">
+                                <p>КАЛОРИИ</p>
+                                <h1>200</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО МАЗНИНИ</p>
+                                <h1>12g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАСИТЕНИ МАЗНИНИ</p>
+                                <h1>3g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО ВЪГЛЕХИДРАТИ</p>
+                                <h1>20g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ПРОТЕИН</p>
+                                <h1>6g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ЗАХАРИ</p>
+                                <h1>15g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАТРИЙ</p>
+                                <h1>50mg</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ХОЛЕСТЕРОЛ</p>
+                                <h1>15mg</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            
+                                <img src="images/strawberry-and-basil.svg">
+                        </div>
+
+                        <div class="product-text">
+                            <h1>Ягоди и босилек</h1>
+                            <p>Кремообразен десерт на основата на кисело мляко,
+                                наситен със земното богатство на орехи и
+                                сладостта на меда, създавайки хармонична
+                                комбинация от вкусове и текстури.
+                                Основни съставки: кисело мляко, орехи, мед,
+                                захар, желатин (за консистенция), Ванилов
+                                екстрakm</p>
+                        </div>
+
+                        <div class="vitamins">
+                            <div class="mini">
+                                <p>КАЛОРИИ</p>
+                                <h1>200</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО МАЗНИНИ</p>
+                                <h1>12g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАСИТЕНИ МАЗНИНИ</p>
+                                <h1>3g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО ВЪГЛЕХИДРАТИ</p>
+                                <h1>20g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ПРОТЕИН</p>
+                                <h1>6g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ЗАХАРИ</p>
+                                <h1>15g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАТРИЙ</p>
+                                <h1>50mg</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ХОЛЕСТЕРОЛ</p>
+                                <h1>15mg</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <picture>
+                                <source
+                                    srcset="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png">
+                                <img
+                                    src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png"
+                                    alt>
+                            </picture>
+                        </div>
+
+                        <div class="product-text">
+                            <h1>Ягоди и босилек</h1>
+                            <p>Кремообразен десерт на основата на кисело мляко,
+                                наситен със земното богатство на орехи и
+                                сладостта на меда, създавайки хармонична
+                                комбинация от вкусове и текстури.
+                                Основни съставки: кисело мляко, орехи, мед,
+                                захар, желатин (за консистенция), Ванилов
+                                екстрakm</p>
+                        </div>
+
+                        <div class="vitamins">
+                            <div class="mini">
+                                <p>КАЛОРИИ</p>
+                                <h1>200</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО МАЗНИНИ</p>
+                                <h1>12g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАСИТЕНИ МАЗНИНИ</p>
+                                <h1>3g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ОБЩО ВЪГЛЕХИДРАТИ</p>
+                                <h1>20g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ПРОТЕИН</p>
+                                <h1>6g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ЗАХАРИ</p>
+                                <h1>15g</h1>
+                            </div>
+                            <div class="mini">
+                                <p>НАТРИЙ</p>
+                                <h1>50mg</h1>
+                            </div>
+                            <div class="mini">
+                                <p>ХОЛЕСТЕРОЛ</p>
+                                <h1>15mg</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="interest" id="interest">
+                    <p>Ако имате интерес към нашите вкусове можете да се
+                        свържете с нас, за да уточним цени, методи на
+                        достава и условия за съхранение.</p>
+                    <button class="makeRequestBtn">Направи заявка</button>
+                </div>
+            </section>
+
+            <section class="reviews" id="reviews">
+                <div class="rev-left">
+                    <h1>Отзиви от клиенти</h1>
+                        <img class="wallnut"
+                            src="/images/Firefly Walnuts on a white background 33689.png"
+                            alt="Walnuts">
+                    <picture class="subtitle">
+                        <source srcset="/images/Sub Title Element.png">
+                        <img src="/images/Sub Title Element.png" alt>
+                    </picture>
+                </div>
+
+                <div class="rev-right">
+                    <div class="rev-card">
+                        <p>Майкъл Томпсън - <img src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt>
+                            <img src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt>
+                        </p>
+
+                        <p>„Имах удоволствието да опитам десерта с ягоди и
+                            босилек и той надмина всички очаквания. Свежестта
+                            на ягодите, съчетана с фината нотка на босилек, беше
+                            истинско откровение. Нямам търпение да
+                            поръчайте отново!"</p>
+                    </div>
+                    <div class="rev-card">
+                        <p>Capa Yaŭm - <img src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt>
+                            <img src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt>
+                        </p>
+                        <p>„Десертът с орехи и мед беше просто вълшебен.
+                            Хрупкавume орехи и сладкият мед се сливаха в едно
+                            невероятно вкусово изживяване. Препоръчвам го на
+                            всички любители на сладкото!"</p>
+                    </div>
+                    <div class="rev-card">
+                        <p>Джон Смит - <img src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt>
+                            <img src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt><img
+                                src="/images/star.svg" alt>
+                        </p>
+                        <p>„Беконът и боровинките бяха най-неочакваното вкусово
+                            изживяване, което съм преживял. Солената
+                            нотка на бекона и сладостта на боровинките се
+                            допълваха перфектно. Препоръчвам го на всички
+                            любители на нестандартните Вкусове!"</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="qna">
+                <div class="top">
+                    <h1>Запитвания и заявки</h1>
+                    <picture class="subtitle">
+                        <source srcset="/images/Sub Title Element.png">
+                        <img src="/images/Sub Title Element.png" alt>
+                    </picture>
+                    <p>За да направите поръчка или запитване за нашите десерти,
+                        моля свържете се с нас на:</p>
+                </div>
+
+                <div class="qna-sec">
+                    <div class="qna-left">
+                        <div class="info">
+                            <p>Имейл:</p>
+                            <h1>info@krystallino.com</h1>
+                        </div>
+                        <div class="info">
+                            <p>Адрес:</p>
+                            <h1>123 Вкусната улица, Девин, България</h1>
+                        </div>
+                        <div class="info">
+                            <p>Телефон:</p>
+                            <h1>+359 (899) 456-7890</h1>
+                        </div>
+                    </div>
+                    <div class="qna-right">
+                        <form>
+                            <label for="name">Вашите имена</label>
+                            <input type="text" name="name"
+                                placeholder="Placeholder" />
+                            <label for="phone">Телефон за връзка</label>
+                            <input type="text" name="phone"
+                                placeholder="Placeholder" />
+                            <label for="email">Имейл за контаки</label>
+                            <input type="text" name="email"
+                                placeholder="Placeholder" />
+                            <label for="question">Вашият въпрос или
+                                заявка</label>
+                            <input name="question"
+                                placeholder="Placeholder"></input>
+                            <button class="makeRequestBtn">Напрваи заява</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="footer">
+                
+                    <img class="wallnut"
+                        src="/images/Firefly Walnuts on a white background 33689.png"
+                        alt="Walnuts">
+
+
+                <picture>
+                    <source srcset="/images/krystallino-logo.png" />
+                    <img src="/images/krystallino-logo.png" alt>
+                </picture>
+
+                <div class="footer-info">
+                    <p>info@krystallino.com</p>
+                    <p>+359 (899) 456-7890</p>
+                </div>
+
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Нашите десерти</a></li>
+                    <li><a href="#">Отзиви</a></li>
+                    <li><a href="#">За поръчки и запитвания</a></li>
+                    <li><a href="#">Препоръки</a></li>
+                    <li><a href="#">Медиите за нас</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+
+                <p class="opyright">Правила и условия Политика за поверителност
+                    Copyright © 2024 Krystallino. Всички права запазени</p>
+            </section>
+        </main>
 
         <script type="module" src="/src/js/main.js"></script>
     </body>
+
 </html>
